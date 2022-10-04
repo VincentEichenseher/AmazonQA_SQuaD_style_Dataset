@@ -1,0 +1,8 @@
+## Inhalt dieses Verzeichnisses
+
+- test_split_squad_format.json.zip: Der gesamte Test split des AmazonQA Datensatzes im SquadData Format ([siehe Haystack](https://github.com/deepset-ai/haystack/blob/main/haystack/utils/squad_data.py)). Der Datensatz ist als .json Datei abgespeichert und als .zip Archiv komprimiert. Auf diesem Split wurden die Modelle in Abschnitt 4 der Arbeit getestet.
+- test_split_squad_format_downsampled.zip: Eine um 90% reduzierte Version des Test-Splits, die erstellt wurde, indem nur jede zehnte Zeile der ürsprünglichen .jsonl eingelesen wurde bevor sie ins SquadData Format gebracht wurde.
+- train_split_squad_format.json.zip: Der gesamte Trainingssplit des AmazonQA Datensatzes im SquadData Format. Der Datensatz ist als .json Datei abgespeichert und als .zip Archiv komprimiert.
+- train_split_squad_format_downsampled.zip: Eine um 90% reduzierte Version des Trainingssplits, die erstellt wurde, indem nur jede zehnte Zeile der ürsprünglichen .jsonl eingelesen wurde bevor sie ins SquadData Format gebracht wurde. Auf diesem Split wurde das Finetuned Modell 5 Epochen lang trainiert.
+- val_split_squad_format.json.zip: Der gesamte Validations-Split des AmazonQA Datensatzes im SquadData Format  Der Datensatz ist als .json Datei abgespeichert und als .zip Archiv komprimiert. Auf diesem Split wurden die Modelle in Abschnitt 3.2 der Arbeit getestet.
+- val_split_squad_format_downsampled.zip: Eine um 90% reduzierte Version des Validation-Splits, die erstellt wurde, indem nur jede zehnte Zeile der ürsprünglichen .jsonl eingelesen wurde bevor sie ins SquadData Format gebracht wurde. Dieser Datensatz wurde als dev-data für Evaluationen des Modells während dem Training genutzt. 
