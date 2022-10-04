@@ -38,6 +38,9 @@ In diesem Verzeichnis sind die Ergebnisse der Evaluation der Modelle auf dem ges
 
 - **Code**: Der Code mit dem das Aufbereiten der Datensätze, die Auswahl des Basismodells, das Finetuning des Modells auf AmazonQA, die Evaluation der Modelle und das Visualisieren der Veränderungen des Modells während dem Training umgesetzt wurden. Für mehr Details siehe die README in diesem Verzeichnis.
 
+- **EvaluationResults**:
+In diesem Verzeichnis sind die Ergebnisse der Evaluation der Modelle auf dem gesamten Test-split (in Abschnitt 4 der Arbeit) als .json Datei abgespeichert. Der Code, mit dem diese Ergebnisse Erhalten wurden befindet sich in dem Verzeichnis [Code](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/Code/Evaluation.ipynb)
+
 - **FinetuningVisualized** Die Veränderungen des Finetuned Modells während dem Training. Der Code, mit dem die Daten visualisiert wurden, befindet sich in dem Verzeichnis [Code](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/Code/Finetuning_visualisiert.ipynb)
 
 
