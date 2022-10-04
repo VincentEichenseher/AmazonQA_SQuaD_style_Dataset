@@ -10,18 +10,19 @@ wird, scheint es sinnvoll, ein Question Answering System zu trainieren, das die 
 Nutzer mit Informationen aus den Reviews
 beantworten kann. Mit diesem Ziel wurden
 mehrere Reader, die auf SQuaD vortrainierte
-Transformer Modelle umsetzten, auf dem AmazonQA Datensatz von [Gupta et al. (2019)](https://arxiv.org/pdf/1908.04364.pdf) Datensatz getestet. Anschließend wurde das beste
+Transformer Modelle umsetzten, auf dem AmazonQA Datensatz von 
+[Gupta et al. (2019)](https://arxiv.org/pdf/1908.04364.pdf) Datensatz getestet. Anschließend wurde das beste
 dieser Modelle, DeBERTaV3 base, 5 Epochen
 lang auf einem Teil von AmazonQA trainiert.
 Der F1 Score des resultierenden Modells ist
-mit 37.94 um 28.5% h  ̈oher als DeBERTav3
-base und um 11.6% h  ̈oher als die Baseline von
+mit 37.94 um 28.5% höher als DeBERTav3
+base und um 11.6% höher als die Baseline von
 [Gupta et al. (2019)](https://arxiv.org/pdf/1908.04364.pdf) . Der Exact Match Score des
 Finetuned Model ist mit 0.94 zwar dreimal so
 hoch wie der von DeBERTaV3 base, jedoch
 84.2% unter der Baseline. Bessere Ergebnisse
 könnten möglicherweise mit einer höheren
-Maximalen Sequence Tokenl  ̈ange erreicht wer-
+Maximalen Sequence Tokenlänge erreicht wer-
 den.
 
 ## Benutzung des Finetuned Reader Modells
@@ -65,7 +66,11 @@ In diesem Verzeichnis sind die Ergebnisse der Evaluation der Modelle auf dem ges
 - **EvaluationResults**:
 In diesem Verzeichnis sind die Ergebnisse der Evaluation der Modelle auf dem gesamten Test-split (in Abschnitt 4 der Arbeit) als .json Datei abgespeichert. Der Code, mit dem diese Ergebnisse Erhalten wurden befindet sich in dem Verzeichnis [Code](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/Code/Evaluation.ipynb)
 
-- **FinetuningVisualized** Die Veränderungen des Finetuned Modells während dem Training. Der Code, mit dem die Daten visualisiert wurden, befindet sich in dem Verzeichnis [Code](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/Code/Finetuning_visualisiert.ipynb)
+- **FinetuningVisualized**: Die Veränderungen des Finetuned Modells während dem Training. Der Code, mit dem die Daten visualisiert wurden, befindet sich in dem Verzeichnis [Code](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/Code/Finetuning_visualisiert.ipynb)
+
+## Ergebnisse des Finetuned Reader Modells auf dem Test-Split von AmazonQA im Vergleich zu anderen Modellen
+
+
 
 
 
