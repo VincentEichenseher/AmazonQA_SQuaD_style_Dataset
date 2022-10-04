@@ -6,14 +6,11 @@ Viele Nutzer von E-Commerce Seiten berufen
 sich auf Reviews, um eine Kaufentscheidung
 zu treffen. Da diese Aufgabe mit zunehmender
 Anzahl und Umfang von Reviews schwieriger
-wird, scheint es sinnvoll, ein Question Answer-
-ing System zu trainieren, das die Fragen der
+wird, scheint es sinnvoll, ein Question Answering System zu trainieren, das die Fragen der
 Nutzer mit Informationen aus den Reviews
 beantworten kann. Mit diesem Ziel wurden
 mehrere Reader, die auf SQuaD vortrainierte
-Transformer Modelle umsetzten, auf dem Ama-
-zonQA Datensatz von [Gupta et al. (2019)](https://arxiv.org/pdf/1908.04364.pdf) Daten-
-satz getestet. Anschließend wurde das beste
+Transformer Modelle umsetzten, auf dem AmazonQA Datensatz von [Gupta et al. (2019)](https://arxiv.org/pdf/1908.04364.pdf) Datensatz getestet. Anschließend wurde das beste
 dieser Modelle, DeBERTaV3 base, 5 Epochen
 lang auf einem Teil von AmazonQA trainiert.
 Der F1 Score des resultierenden Modells ist
@@ -23,7 +20,7 @@ base und um 11.6% h  ̈oher als die Baseline von
 Finetuned Model ist mit 0.94 zwar dreimal so
 hoch wie der von DeBERTaV3 base, jedoch
 84.2% unter der Baseline. Bessere Ergebnisse
-k  ̈onnten m  ̈oglicherweise mit einer h  ̈oheren
+könnten möglicherweise mit einer höheren
 Maximalen Sequence Tokenl  ̈ange erreicht wer-
 den.
 
