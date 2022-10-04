@@ -5,7 +5,7 @@
 ### Schritt 1: Laden und entpacken des Modells
 ```
 !wget https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/blob/main/model_finetuned_amazonqa.zip 
-!unizp "model_finetuned_amazon.zip"
+!unzip "model_finetuned_amazon.zip"
 ```
 
 ### Schritt 2: Erstellen eines Readers, der dieses Modell umsetzt
@@ -23,9 +23,20 @@ from haystack.pipelines import ExtractiveQAPipeline
 retriever = BM25Retriever(document_store=document_store)
 pipe = ExtractiveQAPipeline(reader, retriever)
 ```
-wobei document_store ein DocumentStore ist, in dem Amazon Reviews geindext sind. Für mehr information siehe https://haystack.deepset.ai/components/document-store
+wobei document_store ein DocumentStore ist, in dem Amazon Reviews geindext sind. Für wietere Informationen siehe die [Haystack Dokumentation](https://haystack.deepset.ai/components/document-store)
 
-## Übersicht über die Dateien in diesem Repository
+## Übersicht über die Dateien und Verzeichnisse in diesem Repository
+
+- model_finetuned_amazonqa.zip: 
+Das finetuned Modell, komprimiert als .zip Datei für schnelleres Herunterladen
+
+-Aufbereitete_Daten
+
+-BaseModelSelectionData
+
+-Code
+
+-FinetuningVisualized
 
 
 
