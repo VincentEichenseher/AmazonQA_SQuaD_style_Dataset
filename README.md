@@ -72,7 +72,7 @@ In diesem Verzeichnis sind die Ergebnisse der Evaluation der Modelle auf dem ges
 
 ## Ergebnisse des Finetuned Reader Modells auf dem Test-Split von AmazonQA im Vergleich zu anderen Modellen
 
-![ResultsOnTestSplit](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/ResultsOnTestSplit.png)
+![ResultsOnTestSplit](/ResultsOnTestSplit.png)
 
 
 
