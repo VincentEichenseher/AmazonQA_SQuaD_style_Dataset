@@ -68,9 +68,11 @@ In diesem Verzeichnis sind die Ergebnisse der Evaluation der Modelle auf dem ges
 
 - **FinetuningVisualized**: Die Veränderungen des Finetuned Modells während dem Training. Der Code, mit dem die Daten visualisiert wurden, befindet sich in dem Verzeichnis [Code](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/Code/Finetuning_visualisiert.ipynb)
 
+- **ResultsOnTestSplit.png**: Die Ergebnisse der Evaluation der Modelle auf dem Testsplit (siehe Abschnitt 4 der Arbeit)
+
 ## Ergebnisse des Finetuned Reader Modells auf dem Test-Split von AmazonQA im Vergleich zu anderen Modellen
 
-[ResultsOnTestSplit](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/ResultsOnTestSplit.png)
+![ResultsOnTestSplit](https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/tree/main/ResultsOnTestSplit.png)
 
 
 
