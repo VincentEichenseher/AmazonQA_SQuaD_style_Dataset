@@ -2,7 +2,7 @@
 
 ## Benutzung des Finetuned Reader Modells
 
-###Schritt 1: Laden und entpacken des Modells
+### Schritt 1: Laden und entpacken des Modells
 ```
 !wget https://github.com/VincentEichenseher/Finetuning-eines-Reader-Modells-fuer-Review-Based-Question-Answering/blob/main/model_finetuned_amazonqa.zip 
 !unizp "model_finetuned_amazon.zip"
@@ -24,5 +24,8 @@ retriever = BM25Retriever(document_store=document_store)
 pipe = ExtractiveQAPipeline(reader, retriever)
 ```
 wobei document_store ein DocumentStore ist, in dem Amazon Reviews geindext sind. Für mehr information siehe https://haystack.deepset.ai/components/document-store
+
+## Übersicht über die Dateien in diesem Repository
+
 
 
