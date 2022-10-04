@@ -27,10 +27,11 @@ wobei document_store ein DocumentStore ist, in dem Amazon Reviews geindext sind.
 
 ## Übersicht über die Dateien und Verzeichnisse in diesem Repository
 
-- model_finetuned_amazonqa.zip: 
+- **model_finetuned_amazonqa.zip**: 
 Das finetuned Modell, komprimiert als .zip Datei für schnelleres Herunterladen
 
--Aufbereitete_Daten
+- **Aufbereitete_Daten**:
+In diesem Verzeichnis sind die aufbereiteten (ins [SquadData](https://github.com/deepset-ai/haystack/blob/main/haystack/utils/squad_data.py) Format gebrachten) Splits des AmazonQA Datensatzes. Dabei sind sowohl die ganzen Splits als auch die reduzierten Splits, die nur 10% ihrer originalen Größe sind, vorhanden. Für weitere Details siehe die README in diesem Verzeichnis.
 
 -BaseModelSelectionData
 
