@@ -1,0 +1,7 @@
+## Inhalt dieses Verzeichnisses:
+
+- **BaseModelSelection.ipynb**: Das Jupyter-Notebook, mit dem die Modelle in Abschnitt 3.2 auf dem Validationssplit des AmazonQA Datensatzes getestet wurden, um so festzustellen, welches am besten geeignet ist, um auf AmazonQA trainiert zu werden. Die Ergebnisse im .json Format sind in ../BaseModelSelection zu finden.
+- **Evaluation.ipynb**: Das Jupyter-Notebook, mit dem die Modelle in Abschnitt 4 auf dem Testsplit des AmazonQA Datensatzes getestet wurden, um die Leistung dieser einzuschätzen. Die Ergebnisse im .json Format sind in ../EvaluationResults zu finden.
+- **Finetuning_Visualisiert.ipynb**: Das Jupyter-Notebook, mit dem die Veränderung des Modells während dem Training visualisiert wurde. Die Werte in dem Numpy Array wurden aus den Logs der .train() Methode des Readers (siehe ./FinetuningOnSample.ipynb) übernommen. Die resultierenden Plots sind im Verzeichnis ../FinetuningVisualized zu finden.
+- **FinetuningOnSample.ipynb**: Finetuning eines vortraininerten Modells 5 epochen lang auf 10% des Trainingssplits des AmazonQA Datensatzes. Das resultierende Modell befindet sich unter ../model_finetuned_amazonqa.zip
+- **Preprocessing.ipynb**: Aufbereiten des AmazonQA, indem dieser ins SquadData Format gebracht wird, sowie verkleinerung des Datensatzes auf 10% der originalen Größe. Die resultierenden Splits sind in ../Aufbereitete_Daten zu finden.
